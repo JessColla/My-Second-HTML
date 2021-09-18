@@ -1,0 +1,552 @@
+body {
+    margin: 0px;
+    background: #F9F9F9;
+}
+
+p {
+    margin: 0;
+}
+
+.Pagina {
+    padding: 0px;
+    margin: 0px;
+}
+
+.Pagina2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.Cabeçalho {
+    display: flex;
+    align-items: flex-end;
+}
+
+.Beauty {
+    width: 88, 51px;
+    height: 24, 25px;
+}
+
+.Salon {
+    width: 67, 24px;
+    height: 18, 27px;
+    left: 89, 12px;
+    margin-bottom: 6px;
+}
+
+.Ponto {
+    width: 7px;
+    height: 7px;
+    margin-bottom: 6px;
+}
+
+.Lista {
+    display: flex;
+}
+
+.Listaitem {
+    list-style: none;
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.Listalink {
+    text-decoration: none;
+    color: #0F241D;
+}
+
+.Linha {
+    margin: 0px;
+    background-color: #E4E4E4;
+    height: 1px;
+    border: none;
+}
+
+.Conteudo1 {
+    display: flex;
+    height: 400px;
+    margin: 0 auto;
+    width: 1000px;
+    padding: 70px 0;
+}
+
+.Conteudo1-1 {
+    flex: 1;
+    /*Determina que o item ocupe todo o espaço disponivel na div pai */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Conteudo1-2 {
+    position: relative;
+}
+
+.Saúde {
+    font-family: "poppins";
+    font-style: normal;
+    font-size: 36px;
+    margin-right: 60px;
+}
+
+.Salão {
+    width: 347px;
+    height: 46px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #767676;
+}
+
+.Agendar {
+    width: 250px;
+    height: 50px;
+    align-items: center;
+    font-family: "poppins";
+    font-style: normal;
+    font-size: 15px;
+    color: #F9F9F9;
+    background: #69B99D;
+    border-radius: 4px;
+    border-color: transparent;
+}
+
+.Quadro {
+    width: 550px;
+    height: 370px;
+    margin-right: -60px;
+    background: #CCF4E6;
+    border-radius: 4px;
+}
+
+.Secador {
+    position: absolute;
+    width: 540px;
+    height: 375px;
+    left: -50px;
+    top: 50px;
+    border-radius: 4px;
+}
+
+.Quadro2 {
+    width: 572px;
+    height: 405px;
+    background: #CCF4E6;
+    border-radius: 4px;
+    margin-left: -350px;
+}
+
+.Tesoura {
+    position: absolute;
+    width: 572px;
+    height: 412px;
+    top: 60px;
+    border-radius: 4px;
+    margin-left: -180px;
+    flex: 1;
+}
+
+.Sobrenos {
+    width: 200px;
+    height: 54px;
+    font-family: "poppins";
+    font-style: normal;
+    font-size: 36px;
+    line-height: 54px;
+    align-items: center;
+}
+
+.Textosobrenos {
+    font-family: "DM Sans";
+}
+
+.Lorem {
+    position: absolute;
+    width: 800 px;
+    height: 766px;
+    left: 637px;
+    top: 250px;
+    color: #767676;
+    font-family: "DM Sans";
+    font-size: 16px;
+}
+
+.Conteudo2 {
+    width: 1000px;
+    height: 330px;
+    background: white;
+    display: flex;
+    flex: 1;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 160px 0;
+}
+
+.Conteudo2-1 {
+    /*Determina que o item ocupe todo o espaço disponivel na div pai */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+}
+
+.Conteudo2-2 {
+    width: 550px;
+}
+
+.Pagina3 {
+    background: white;
+}
+
+.Pagina4 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 160px 0;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.Servicos {
+    text-align: center;
+    font-family: "Poppins";
+}
+
+.Textoservicos {
+    width: 400px;
+    font-family: "DM Sans";
+    font-size: 16px;
+}
+
+.Beautysalon {
+    color: #69B99D
+}
+
+.Quadro3 {
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    padding: 6px;
+    justify-content: space-around;
+    width: 1000px;
+    font-family: "Poppins";
+}
+
+.Quadro3-1 {
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+    width: 270px;
+    height: 300px;
+    padding: 20px;
+    border-bottom: solid #69B99D;
+    position: relative;
+    font-family: "Poppins";
+}
+
+.Textoterapia {
+    font-family: "DM Sans";
+}
+
+.Textocortes {
+    font-family: "DM Sans";
+}
+
+.Textotratamento {
+    font-family: "DM Sans";
+}
+
+.Cabeca {
+    margin-top: 30px;
+}
+
+.Olho1 {
+    position: absolute;
+    top: 85px;
+    left: 142px;
+}
+
+.Olho2 {
+    position: absolute;
+    top: 85px;
+    left: 155px;
+}
+
+.Boca {
+    position: absolute;
+    top: 95px;
+    left: 148px;
+}
+
+.Tesoura2 {
+    margin-top: 30px;
+}
+
+.Estrela1 {
+    position: absolute;
+    top: 85px;
+    left: 175px;
+}
+
+.Estrela2 {
+    position: absolute;
+    top: 75px;
+    right: 175px;
+}
+
+.Traco1 {
+    position: absolute;
+    top: 63px;
+    right: 130px;
+}
+
+.Traco2 {
+    position: absolute;
+    top: 80px;
+    right: 146px;
+}
+
+.BolaP {
+    position: absolute;
+    top: 86px;
+    right: 151px;
+}
+
+.BolaG1 {
+    position: absolute;
+    top: 110px;
+    right: 174px;
+}
+
+.BolaG2 {
+    position: absolute;
+    top: 110px;
+    right: 126px;
+}
+
+.Condicionador {
+    margin-top: 30px;
+}
+
+.Shapoo {
+    margin-top: 30px;
+}
+
+.Pagina5 {
+    background: white;
+}
+
+.Conteudo3 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 160px 0;
+    margin: 0 auto;
+    width: 1000px;
+    background: white;
+}
+
+.Depoimentos {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    font-family: "Poppins";
+    width: 500px;
+}
+
+.Quadro4 {
+    display: flex;
+    justify-content: space-around;
+    padding: 6px;
+    margin-top: 30px;
+    width: 1000px;
+}
+
+.Quadro4-1 {
+    width: 350px;
+    height: 200px;
+    padding: 50px;
+    position: relative;
+    font-family: "DM Sans";
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    font-style: normal;
+}
+
+.Wanessa {
+    height: 32px;
+}
+
+.Luna {
+    height: 32px;
+}
+
+.Foto {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.Nome {
+    margin-left: 10px;
+}
+
+.Quadro4-2 {
+    display: flex;
+}
+
+.Aspas {
+    width: 15px;
+    height: 16px;
+}
+
+.Pagina6 {
+    background-color: #F9F9F9;
+}
+
+.Conteudo4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+    margin-top: 30px;
+    width: 1000px;
+    padding: 160px 0;
+    margin: 0 auto;
+}
+
+.Conteudo4-2 {
+    margin-right: 100px;
+}
+
+.Entreemcontato {
+    text-align: left;
+    justify-content: center;
+    font-family: "Poppins";
+    width: 300px;
+    flex: 1;
+    flex-direction: column;
+}
+
+.Entre {
+    font-family: "DM Sans";
+}
+
+.Button {
+    background-color: #69B99D;
+    border: none;
+    border-radius: 4px;
+    height: 50px;
+    width: 236px;
+    color: white;
+    margin-top: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.Whats {
+    margin-right: 20px;
+}
+
+.Telefone {
+    list-style: none;
+    align-items: center;
+}
+
+.Telefone2 {
+    text-decoration: none;
+    color: #767676;
+    margin-left: 10px;
+}
+
+.Contatos {
+    margin-top: 78px;
+}
+
+.Contato {
+    list-style: none;
+    align-items: center;
+    margin-top: 40px;
+    position: relative;
+}
+
+.Carta {
+    position: absolute;
+    left: -0px;
+    top: 1px;
+}
+
+.Contato2 {
+    text-decoration: none;
+    color: #767676;
+    margin-left: 10px;
+}
+
+.Mapa {
+    color: #767676;
+    text-decoration: none;
+    margin-top: 40px;
+    list-style: none;
+    display: flex;
+}
+
+.Mapa2 {
+    margin-left: 10px;
+}
+
+.Footer {
+    background-color: #69B99D;
+}
+
+.Footer1 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.Footer2 {
+    width: 250px;
+    position: absolute;
+}
+
+.Footer3 {
+    color: white;
+    font-family: "DM Sans";
+    margin-top: 100px;
+}
+
+.Beauty2 {
+    width: 88, 51px;
+    height: 24, 25px;
+}
+
+.Salon2 {
+    left: 89, 12px;
+    margin-bottom: 6px;
+    width: 75px;
+}
+
+.Ponto2 {
+    width: 7px;
+    height: 7px;
+    margin-bottom: 6px;
+}
+
+.Icons {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
